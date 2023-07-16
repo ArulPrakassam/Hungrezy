@@ -1,0 +1,49 @@
+/* This file has home navbar css */
+
+/* navbar */
+.header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.short-text {
+  font-family: var(--font-family1);
+  font-size: 0.87rem;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.mini-mobile-icon {
+  font-size: 0.87rem;
+  color: white;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  padding: 15px;
+  color: white;
+}
+
+.login-icon {
+  border-radius: 100%;
+  border: 1px solid white;
+  color: var(--color2);
+  padding: 3px 5px;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 768px) {
+  .header nav {
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,71 @@
+/* This file has css for dining out section*/
+
+.collections-slider-container {
+  scrollbar-width: none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x;
+}
+
+.collections-slider-container::-webkit-scrollbar {
+  display: none;
+}
+.main-section .collections-intro {
+  padding-left: 20px;
+}
+.main-section .collections-intro {
+  padding-left: 20px;
+}
+.slider-item-one {
+  scroll-snap-align: start;
+  margin-right: 15px;
+}
+.collection-slider {
+  display: flex;
+}
+.scroll-btns-holder {
+  position: relative;
+}
+.scroll-arrow-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow-btn-left,
+.arrow-btn-right {
+  color: black;
+  background-color: white;
+  border-radius: 100%;
+  padding: 8px 10px;
+  border: none;
+  font-size: 1rem;
+  position: absolute;
+}
+.arrow-btn-left {
+  top: 50%;
+  left: 0;
+  cursor: pointer;
+}
+.arrow-btn-right {
+  top: 50%;
+  right: 0;
+  cursor: pointer;
+}
+.arrow-btn-left:hover,
+.arrow-btn-right:hover {
+  background-color: var(--color1);
+}
+@media screen and (max-width: 768px) {
+  .scroll-btns-holder {
+    margin-left: 15px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .main-section .collections-intro {
+    padding-left: 0px;
+  }
+}

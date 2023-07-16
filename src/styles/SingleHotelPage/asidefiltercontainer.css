@@ -1,0 +1,125 @@
+/* This file has css for aside filter container */
+
+/* aside filter container */
+
+.aside-filter-section {
+  height: max-content;
+  width: 350px;
+  overflow: hidden auto;
+  position: sticky;
+  top: 280px;
+  border-right: 2px solid rgb(204, 198, 198);
+}
+
+.filter-name {
+  font-size: 1.2rem;
+  padding: 10px;
+  font-family: var(--font-family1);
+  cursor: pointer;
+}
+@media screen and (max-width: 961px) {
+  .filter-name {
+    font-size: 1rem;
+    padding: 6px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .filter-name {
+    font-size: 0.87rem;
+    padding: 6px;
+  }
+}
+/* menu filter container for mobile */
+
+.show-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  z-index: 4;
+  width: 70vw;
+}
+.show-menu {
+  display: flex;
+  align-items: center;
+  background-color: #212529;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 0.95rem;
+  font-family: var(--font-family1);
+  border: none;
+  cursor: pointer;
+}
+.show-menu span {
+  margin-right: 8px;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #d4af37;
+}
+
+.modal-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+}
+.modal-menu-content {
+  background-color: white;
+  position: fixed;
+  bottom: 100px;
+  width: 300px;
+  border-radius: 15px;
+  transition: transform 0.5s ease-in-out;
+  animation: scaleUp 0.5s forwards;
+  overflow: hidden auto;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .show-menu-btn {
+    width: 85vw;
+  }
+}
+@media screen and (max-width: 361px) {
+  .show-menu-btn {
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  .modal-menu-content {
+    width: 250px;
+  }
+  .show-menu {
+    font-size: 0.86rem;
+  }
+  .show-menu span {
+    font-size: 0.87rem;
+  }
+}
+@media screen and (max-width: 307px) {
+  .show-menu-btn {
+    width: 93vw;
+  }
+}

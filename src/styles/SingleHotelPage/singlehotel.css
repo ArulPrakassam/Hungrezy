@@ -1,0 +1,173 @@
+@import "./reviewsection.css";
+@import "./menusection.css";
+@import "./overviewsection.css";
+
+/* This file has css for hotel header and banner image */
+.single-hotel-page {
+  width: 70vw;
+  margin: 10px auto;
+}
+.banner-image {
+  display: grid;
+  grid-template-areas:
+    "img1 img1 img1 img2 img4"
+    "img1 img1 img1 img3 img4";
+  gap: 10px;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img4 {
+  grid-area: img4;
+}
+.banner-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.banner-image img:hover {
+  transform: scale(1.01);
+}
+.hotel-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.hotel-info h1 {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.hotel-info p,
+.open-status {
+  font-size: 1rem;
+  color: grey;
+  padding: 5px 0;
+}
+
+.hotel-ratings p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(30, 124, 27);
+  font-size: 1rem;
+  color: var(--body);
+  padding: 3px 4px;
+  border-radius: 5px;
+}
+.hotel-rating-icon {
+  font-size: 0.7rem;
+  margin-left: 5px;
+}
+.open-status span {
+  color: orange;
+}
+
+/* hotel content selection */
+
+.hotel-content-selection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: max-content;
+}
+.hotel-content-info {
+  cursor: pointer;
+  margin-right: 50px;
+}
+.hotel-content-info h2 {
+  font-size: 1.2rem;
+  font-family: var(--font-family1);
+  font-weight: 500;
+  margin-top: 4px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 769px) {
+  .hotel-header {
+    position: sticky;
+    top: 0;
+    background-color: var(--body);
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 998px) {
+  .hotel-content-info {
+    margin-right: 30px;
+  }
+  .hotel-content-info h2 {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 961px) {
+  .hotel-info h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 729px) {
+  .hotel-info p,
+  .open-status {
+    font-size: 0.95rem;
+  }
+
+  .hotel-ratings p {
+    font-size: 0.8rem;
+  }
+  .hotel-rating-icon {
+    font-size: 0.6rem;
+  }
+  .hotel-content-info h2 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 623px) {
+  .hotel-info h1 {
+    font-size: 1.2rem;
+  }
+  .hotel-content-info {
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .single-hotel-page {
+    width: 85vw;
+    margin: 0px auto;
+  }
+}
+@media screen and (max-width: 361px) {
+  .single-hotel-page {
+    width: 90vw;
+  }
+  .hotel-info h1 {
+    font-size: 1.2rem;
+  }
+  .hotel-info p,
+  .open-status {
+    font-size: 0.85rem;
+  }
+
+  .hotel-ratings p {
+    font-size: 0.7rem;
+  }
+  .hotel-rating-icon {
+    font-size: 0.5rem;
+  }
+  .hotel-content-info h2 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 307px) {
+  .single-hotel-page {
+    width: 93vw;
+  }
+}

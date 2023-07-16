@@ -1,0 +1,96 @@
+/* This file has css for mobile input container (mobile location search, mobile hotel search) */
+
+/*  mobile input container*/
+
+/* mobile location search */
+.mobile-location-section,
+.mobile-hotel-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--body);
+  transition: all 0.5s linear;
+}
+
+.mobile-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s linear;
+  box-shadow: 0px 0px 1px 2px var(--box-shadow);
+}
+.mobile-input-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+.mobile-location-search,
+.mobile-hotel-search {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  padding: 5px;
+  border: none;
+  height: 49px;
+  font-size: 0.8rem;
+  text-overflow: ellipsis;
+  background-color: var(--body);
+  width: 75vw;
+}
+
+.mobile-location-search::placeholder {
+  font-weight: bold;
+  color: black;
+}
+.mobile-search-icon {
+  color: black;
+  font-size: 1rem;
+  background-color: rgb(236, 232, 232);
+  padding: 5px 6px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.mobile-location-icon {
+  font-size: 1rem;
+  color: var(--color3);
+  background-color: var(--body);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-top: 6px;
+  padding-top: 15px;
+  padding-bottom: 17px;
+  padding-left: 6px;
+  padding-right: 3px;
+}
+
+.mobile-location-search:focus,
+.mobile-hotel-search:focus {
+  outline: none;
+}
+
+/* mobile hotel search */
+/* .mobile-hotel-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.5s linear;
+} */
+.hotel-mobile-input-container {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hotel-mobile-search-icon {
+  font-size: 1rem;
+  color: grey;
+  margin-right: 10px;
+}
+.hotel.mobile-input-content {
+  border-radius: 300px;
+  box-shadow: 0px 0px 1px 2px var(--box-shadow);
+  justify-content: space-evenly;
+  padding: 0 10px;
+  margin: 0;
+}

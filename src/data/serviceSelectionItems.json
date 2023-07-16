@@ -1,0 +1,23 @@
+[
+  {
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689355466/Hungrezy/delivery.png",
+    "title": "Delivery",
+    "color": "rgb(241, 208, 147)",
+    "id": 1,
+    "url": "delivery"
+  },
+  {
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689355473/Hungrezy/dineout.png",
+    "title": "Dining Out",
+    "color": "rgb(195, 255, 255)",
+    "id": 2,
+    "url": "dine-out"
+  },
+  {
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689355481/Hungrezy/nightlife.png",
+    "title": "Nightlife",
+    "color": "rgb(151, 190, 216)",
+    "id": 3,
+    "url": "nightlife"
+  }
+]

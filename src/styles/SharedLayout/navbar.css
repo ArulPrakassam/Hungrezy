@@ -1,0 +1,86 @@
+/* This file has css for navbar */
+
+@import "../Hungrezy/inputcontainer.css";
+@import "../Hungrezy/mobileinputcontainer.css";
+
+/* navbar */
+.hungrezy.desktop-nav {
+  display: grid;
+  place-items: center;
+  margin-left: 3rem;
+  margin-top: 20px;
+}
+
+.hungrezy.desktop-nav-content h1 {
+  font-size: 2rem;
+  font-weight: 200;
+  font-style: italic;
+  margin-left: 20px;
+  padding: 20px;
+  cursor: pointer;
+  font-family: "Titan One", cursive;
+}
+.hungrezy.desktop-nav-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hungrezy.desktop-nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hungrezy.desktop-nav ul li {
+  padding: 10px;
+  color: grey;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1022px) {
+  .hungrezy.desktop-nav ul li {
+    font-size: 1rem;
+  }
+  .hungrezy.desktop-nav-content h1 {
+    font-size: 1.7rem;
+    margin-left: 0;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .hungrezy.desktop-nav ul li {
+    padding: 5px;
+  }
+}
+
+/* for mobile nav bar */
+
+.mobile-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.5s linear;
+  z-index: 2;
+}
+.hungrezy.mobile-nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.hungrezy.mobile-nav h1 {
+  font-size: 1.3rem;
+  font-family: "Titan One", cursive;
+  cursor: pointer;
+  margin-left: 20px;
+  font-weight: 400;
+}
+.mobile-nav-login-icon {
+  color: var(--color2);
+  font-size: 1.2rem;
+  border: 1px solid var(--secondary);
+  padding: 3px 5px;
+  border-radius: 100%;
+}

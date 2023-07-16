@@ -1,0 +1,48 @@
+/* This file has css for input container */
+
+/* input section */
+.hungrezy.input-container {
+  box-shadow: 0px 0px 1px 2px var(--box-shadow);
+  border-radius: 5px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.hungrezy.dropdown-content {
+  border: 1px solid var(--secondary);
+  margin-top: 20px;
+  left: 1;
+  top: 100%;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1257px) {
+  .hungrezy.location-search {
+    width: 200px;
+  }
+
+  .hungrezy.hotel-search {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1022px) {
+  .hungrezy.location-search {
+    width: 150px;
+  }
+
+  .hungrezy.hotel-search {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .hungrezy.location-search {
+    width: 150px;
+    font-size: 0.8rem;
+  }
+
+  .hungrezy.hotel-search {
+    width: 200px;
+    font-size: 0.8rem;
+  }
+}

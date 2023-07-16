@@ -1,0 +1,713 @@
+{
+  "Breakfast": [
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411678/Hungrezy/Dosa.jpg",
+      "name": "Dosa",
+      "price": "87",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411682/Hungrezy/Rava%20Dosa.jpg",
+      "name": "Rava Dosa",
+      "price": "97",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412273/Hungrezy/Ghee%20Rava%20Dosa.jpg",
+      "name": "Ghee Rava Dosa",
+      "price": "135",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411694/Hungrezy/Mysore%20Rava%20Dosa.jpg",
+      "name": "Mysore Rava Dosa",
+      "price": "100",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411705/Hungrezy/Onion%20Uttapam.jpg",
+      "name": "Onion Uttapam",
+      "price": "103",
+      "veg": true,
+      "ratings": [3, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411712/Hungrezy/Poori%20Masala.jpg",
+      "name": "Poori Masala",
+      "price": "87",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411729/Hungrezy/Idli%202%20Nos.jpg",
+      "name": "Idli 2 Nos",
+      "price": "49",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412017/Hungrezy/Vada%20%5B1%20Piece%5D.jpg",
+      "name": "Vada [1 Piece]",
+      "price": "45",
+      "veg": true,
+      "ratings": [3, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411739/Hungrezy/Ghee%20Roast.jpg",
+      "name": "Ghee Roast",
+      "price": "126",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411745/Hungrezy/Podi%20Dosa.jpg",
+      "name": "Podi Dosa",
+      "price": "102",
+      "veg": true,
+      "ratings": [4, 0]
+    }
+  ],
+  "Lunch": [
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411751/Hungrezy/Traditional%20South%20Indian%20Parcel%20Meal.jpg",
+      "name": "Traditional South Indian Parcel Meal",
+      "price": "120",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412562/Hungrezy/Traditional%20South%20Indian%20Special%20Meal.jpg",
+      "name": "Traditional South Indian Special Meal",
+      "price": "180",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412569/Hungrezy/Mini%20Meal.jpg",
+      "name": "Mini Meal",
+      "price": "140",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412581/Hungrezy/Sambar%20Rice.jpg",
+      "name": "Sambar Rice",
+      "price": "75",
+      "veg": true,
+      "ratings": [3, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412592/Hungrezy/Curd%20Rice.jpg",
+      "name": "Curd Rice",
+      "price": "75",
+      "veg": true,
+      "ratings": [3, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412604/Hungrezy/Veg%20Pulao.jpg",
+      "name": "Veg Pulao",
+      "price": "169",
+      "veg": true,
+      "ratings": [3, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412611/Hungrezy/Veg%20Biryani.jpg",
+      "name": "Veg Biryani",
+      "price": "140",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412616/Hungrezy/Paneer%20Biryani.jpg",
+      "name": "Paneer Biryani",
+      "price": "160",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412623/Hungrezy/Mushroom%20Biryani.jpg",
+      "name": "Mushroom Biryani",
+      "price": "150",
+      "veg": true,
+      "ratings": [4, 0]
+    }
+  ],
+  "Dinner": [
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411678/Hungrezy/Dosa.jpg",
+      "name": "Dosa",
+      "price": "87",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411682/Hungrezy/Rava%20Dosa.jpg",
+      "name": "Rava Dosa",
+      "price": "97",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412273/Hungrezy/Ghee%20Rava%20Dosa.jpg",
+      "name": "Ghee Rava Dosa",
+      "price": "135",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411694/Hungrezy/Mysore%20Rava%20Dosa.jpg",
+      "name": "Mysore Rava Dosa",
+      "price": "100",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411739/Hungrezy/Ghee%20Roast.jpg",
+      "name": "Ghee Roast",
+      "price": "126",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411745/Hungrezy/Podi%20Dosa.jpg",
+      "name": "Podi Dosa",
+      "price": "102",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689411705/Hungrezy/Onion%20Uttapam.jpg",
+      "name": "Onion Uttapam",
+      "price": "103",
+      "veg": true,
+      "ratings": [3, 0]
+    },
+
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412987/Hungrezy/Kerala%20Parotta.jpg",
+      "name": "Kerala Parotta",
+      "price": "90",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413003/Hungrezy/Paratha%20Kurma.jpg",
+      "name": "Paratha Kurma",
+      "price": "70",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413020/Hungrezy/Chapati%20Kurma.jpg",
+      "name": "Chapati Kurma",
+      "price": "70",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413047/Hungrezy/Paneer%20Butter%20Masala.jpg",
+      "name": "Paneer Butter Masala",
+      "price": "165",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413077/Hungrezy/Butter%20Naan.jpg",
+      "name": "Butter Naan",
+      "price": "69",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413082/Hungrezy/Naan.jpg",
+      "name": "Naan",
+      "price": "49",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413092/Hungrezy/Kuboos.jpg",
+      "name": "Kuboos",
+      "price": "20",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413098/Hungrezy/Cheese%20Naan.jpg",
+      "name": "Cheese Naan",
+      "price": "69",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413107/Hungrezy/Chilli%20Parotta.jpg",
+      "name": "Chilli Parotta",
+      "price": "115",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413114/Hungrezy/Veg%20Fried%20Rice.jpg",
+      "name": "Veg Fried Rice",
+      "price": "128",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413125/Hungrezy/Veg%20Noodles.jpg",
+      "name": "Veg Noodles",
+      "price": "129",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413130/Hungrezy/Gobi%2065.jpg",
+      "name": "Gobi 65",
+      "price": "170",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413135/Hungrezy/Mushroom%20Fried%20Rice.jpg",
+      "name": "Mushroom Fried Rice",
+      "price": "179",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413146/Hungrezy/Paneer%20Fried%20Rice.jpg",
+      "name": "Paneer Fried Rice",
+      "price": "179",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413151/Hungrezy/Paneer%20Manchurian.jpg",
+      "name": "Paneer Manchurian",
+      "price": "190",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413160/Hungrezy/Gobi%20Manchurian.jpg",
+      "name": "Gobi Manchurian",
+      "price": "170",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413210/Hungrezy/Chilli%20Paneer.jpg",
+      "name": "Chilli Paneer",
+      "price": "180",
+      "veg": true,
+      "ratings": [3, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413217/Hungrezy/Chicken%20Kothu%20Parotta.jpg",
+      "name": "Chicken Kothu Parotta",
+      "price": "190",
+      "veg": false,
+      "ratings": [3, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413228/Hungrezy/Chicken%20Lollipop.jpg",
+      "name": "Chicken Lollipop",
+      "price": "125",
+      "veg": false,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413234/Hungrezy/Chilli%20Chicken%20Dry.jpg",
+      "name": "Chilli Chicken Dry",
+      "price": "169",
+      "veg": false,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413245/Hungrezy/Chicken%20Fried%20Rice.jpg",
+      "name": "Chicken Fried Rice",
+      "price": "210",
+      "veg": false,
+      "ratings": [2, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413250/Hungrezy/Chicken%20Noodles.jpg",
+      "name": "Chicken Noodles",
+      "price": "220",
+      "veg": false,
+      "ratings": [3, 0]
+    }
+  ],
+  "Breads": [
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413003/Hungrezy/Paratha%20Kurma.jpg",
+      "name": "Paratha Kurma",
+      "price": "70",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689412987/Hungrezy/Kerala%20Parotta.jpg",
+      "name": "Kerala Parotta",
+      "price": "90",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413077/Hungrezy/Butter%20Naan.jpg",
+      "name": "Butter Naan",
+      "price": "69",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413082/Hungrezy/Naan.jpg",
+      "name": "Naan",
+      "price": "49",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413092/Hungrezy/Kuboos.jpg",
+      "name": "Kuboos",
+      "price": "20",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413098/Hungrezy/Cheese%20Naan.jpg",
+      "name": "Cheese Naan",
+      "price": "69",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413107/Hungrezy/Chilli%20Parotta.jpg",
+      "name": "Chilli Parotta",
+      "price": "115",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413217/Hungrezy/Chicken%20Kothu%20Parotta.jpg",
+      "name": "Chicken Kothu Parotta",
+      "price": "190",
+      "veg": false,
+      "ratings": [3, 1]
+    }
+  ],
+  "Street Foods": [
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414352/Hungrezy/Veg%20Grilled%20Sandwich.jpg",
+      "name": "Veg Grilled Sandwich",
+      "price": "155",
+      "veg": true,
+      "ratings": [3, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414359/Hungrezy/Veg%20Zinger%20Burger.jpg",
+      "name": "Veg Zinger Burger",
+      "price": "188",
+      "veg": true,
+      "ratings": [3, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414390/Hungrezy/2%20pc%20Veg%20Patty.jpg",
+      "name": "2 pc Veg Patty",
+      "price": "155",
+      "veg": true,
+      "ratings": [3, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414468/Hungrezy/Chicken%20Maggi.jpg",
+      "name": "Chicken Maggi",
+      "price": "145",
+      "veg": false,
+      "ratings": [4, 0]
+    },
+
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414476/Hungrezy/2%20Classic%20Chicken%20Rolls.jpg",
+      "name": "2 Classic Chicken Rolls",
+      "price": "228",
+      "veg": false,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414484/Hungrezy/Chicken%20Krisper%20Burger%20Combo.jpg",
+      "name": "Chicken Krisper Burger Combo",
+      "price": "540",
+      "veg": false,
+      "ratings": [3, 0]
+    }
+  ],
+  "Fried Rice and Noodles": [
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413114/Hungrezy/Veg%20Fried%20Rice.jpg",
+      "name": "Veg Fried Rice",
+      "price": "128",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413125/Hungrezy/Veg%20Noodles.jpg",
+      "name": "Veg Noodles",
+      "price": "129",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413135/Hungrezy/Mushroom%20Fried%20Rice.jpg",
+      "name": "Mushroom Fried Rice",
+      "price": "179",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413146/Hungrezy/Paneer%20Fried%20Rice.jpg",
+      "name": "Paneer Fried Rice",
+      "price": "179",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413245/Hungrezy/Chicken%20Fried%20Rice.jpg",
+      "name": "Chicken Fried Rice",
+      "price": "210",
+      "veg": false,
+      "ratings": [2, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413250/Hungrezy/Chicken%20Noodles.jpg",
+      "name": "Chicken Noodles",
+      "price": "220",
+      "veg": false,
+      "ratings": [3, 0]
+    }
+  ],
+  "Chinese": [
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413114/Hungrezy/Veg%20Fried%20Rice.jpg",
+      "name": "Veg Fried Rice",
+      "price": "128",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413125/Hungrezy/Veg%20Noodles.jpg",
+      "name": "Veg Noodles",
+      "price": "129",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413130/Hungrezy/Gobi%2065.jpg",
+      "name": "Gobi 65",
+      "price": "170",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413135/Hungrezy/Mushroom%20Fried%20Rice.jpg",
+      "name": "Mushroom Fried Rice",
+      "price": "179",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413146/Hungrezy/Paneer%20Fried%20Rice.jpg",
+      "name": "Paneer Fried Rice",
+      "price": "179",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413151/Hungrezy/Paneer%20Manchurian.jpg",
+      "name": "Paneer Manchurian",
+      "price": "190",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413160/Hungrezy/Gobi%20Manchurian.jpg",
+      "name": "Gobi Manchurian",
+      "price": "170",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413210/Hungrezy/Chilli%20Paneer.jpg",
+      "name": "Chilli Paneer",
+      "price": "180",
+      "veg": true,
+      "ratings": [3, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413228/Hungrezy/Chicken%20Lollipop.jpg",
+      "name": "Chicken Lollipop",
+      "price": "125",
+      "veg": false,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413234/Hungrezy/Chilli%20Chicken%20Dry.jpg",
+      "name": "Chilli Chicken Dry",
+      "price": "169",
+      "veg": false,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413245/Hungrezy/Chicken%20Fried%20Rice.jpg",
+      "name": "Chicken Fried Rice",
+      "price": "210",
+      "veg": false,
+      "ratings": [2, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689413250/Hungrezy/Chicken%20Noodles.jpg",
+      "name": "Chicken Noodles",
+      "price": "220",
+      "veg": false,
+      "ratings": [3, 0]
+    }
+  ],
+  "Pizza": [
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414596/Hungrezy/Veg%20Extravaganza%20Pizza.jpg",
+      "name": "Veg Extravaganza Pizza",
+      "price": "329",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414601/Hungrezy/Tandoori%20Mushroom%20and%20Sweet%20Corn.jpg",
+      "name": "Tandoori Mushroom & Sweet Corn",
+      "price": "119",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414607/Hungrezy/Ultimate%20Tandoori%20Veggie%20-%20New.jpg",
+      "name": "Ultimate Tandoori Veggie - New",
+      "price": "379",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414796/Hungrezy/Country%20Feast.jpg",
+      "name": "Country Feast",
+      "price": "319",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414804/Hungrezy/Paneer%2C%20Onion%20and%20Capsicum%20with%20Desi%20Makhani%20Sauce.jpg",
+      "name": "Paneer, Onion & Capsicum with Desi Makhani Sauce",
+      "price": "135",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414821/Hungrezy/Classic%20Loaded%20Chicken%20Delight.jpg",
+      "name": "Classic Loaded Chicken Delight",
+      "price": "169",
+      "veg": false,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414827/Hungrezy/Chicken%20Sausage.jpg",
+      "name": "Chicken Sausage",
+      "price": "259",
+      "veg": false,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689414834/Hungrezy/Chicken%20Supreme.jpg",
+      "name": "Chicken Supreme",
+      "price": "409",
+      "veg": false,
+      "ratings": [4, 0]
+    }
+  ],
+  "Ice Cream": [
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689415053/Hungrezy/Butterscotch%20Bliss%20Ice%20Cream.jpg",
+      "name": "Butterscotch Bliss Ice Cream (95 gms)",
+      "price": "119",
+      "veg": true,
+      "ratings": [5, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689415060/Hungrezy/Electric%20Blackcurrant%20Ice%20Cream.jpg",
+      "name": "Electric Blackcurrant Ice Cream (95 gms)",
+      "price": "119",
+      "veg": true,
+      "ratings": [5, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689415066/Hungrezy/Fresh%20Strawberry%20Ice%20Cream.jpg",
+      "name": "Fresh Strawberry Ice Cream (95 gms)",
+      "price": "119",
+      "veg": true,
+      "ratings": [5, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689415076/Hungrezy/Chocolate%20Over%20Load%20Ice%20cream.jpg",
+      "name": "Chocolate Over Load Ice cream (95 gms)",
+      "price": "119",
+      "veg": true,
+      "ratings": [5, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689415080/Hungrezy/Kulfi%20Cup.jpg",
+      "name": "Kulfi Cup [100 ml]",
+      "price": "60",
+      "veg": true,
+      "ratings": [5, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689415088/Hungrezy/Oreo%20and%20Cream.jpg",
+      "name": "Oreo and Cream [700 ml, 1 Tub]",
+      "price": "299",
+      "veg": true,
+      "ratings": [5, 0]
+    }
+  ],
+  "Beverages": [
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689415096/Hungrezy/Filter%20Coffee.jpg",
+      "name": "Filter Coffee",
+      "price": "35",
+      "veg": true,
+      "ratings": [4, 1]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689415102/Hungrezy/Milk.jpg",
+      "name": "Milk",
+      "price": "29",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689415108/Hungrezy/Horlicks.jpg",
+      "name": "Horlicks",
+      "price": "50",
+      "veg": true,
+      "ratings": [4, 0]
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689415117/Hungrezy/Cold%20Coffee%20%5B350%20ml%5D.jpg",
+      "name": "Cold Coffee [350 ml]",
+      "price": "145",
+      "veg": true,
+      "ratings": [4, 0]
+    }
+  ]
+}

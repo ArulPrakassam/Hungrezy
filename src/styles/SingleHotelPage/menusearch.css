@@ -1,0 +1,102 @@
+/* This file has css for menuseach */
+
+/* menu search */
+.search-food-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(204, 198, 198);
+  border-radius: 8px;
+  width: max-content;
+  margin-bottom: 20px;
+}
+.search-menu {
+  padding: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  color: grey;
+}
+.search-menu:focus {
+  outline: none;
+}
+.search-menu::placeholder {
+  font-size: 0.95rem;
+}
+.search-menu-icon,
+.close-menu-icon {
+  color: grey;
+  font-size: 1rem;
+  padding: 9px;
+  background: transparent;
+}
+
+.message {
+  font-size: 1.2rem;
+  font-family: var(--font-family1);
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 998px) {
+  .search-food-menu {
+    margin-bottom: 10px;
+  }
+  .search-menu {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  .search-menu::placeholder {
+    font-size: 0.85rem;
+  }
+  .search-menu-icon,
+  .close-menu-icon {
+    font-size: 1rem;
+    padding: 6px;
+  }
+}
+@media screen and (max-width: 879px) {
+  .search-menu {
+    font-size: 0.85rem;
+  }
+
+  .search-menu-icon,
+  .close-menu-icon {
+    font-size: 0.85rem;
+  }
+
+  .message {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 819px) {
+  .search-menu {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .search-food-menu {
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 18px;
+  }
+  .search-menu {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .search-menu::placeholder {
+    font-size: 1rem;
+  }
+  .search-menu-icon,
+  .close-menu-icon {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .search-menu,
+  .search-menu::placeholder {
+    font-size: 0.87rem;
+  }
+}

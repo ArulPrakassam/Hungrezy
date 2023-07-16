@@ -1,0 +1,38 @@
+/* This file has css for delivery section */
+
+.main-section {
+  margin: 20px auto;
+  width: 70vw;
+}
+
+.main-section-heading h1 {
+  font-family: var(--font-family1);
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    width: 100%;
+    margin-top: 184px;
+  }
+  .main-section-heading {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 981px) {
+  .main-section-heading h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 699px) {
+  .main-section-heading h1 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main-section-heading h1 {
+    padding-top: 30px;
+  }
+}

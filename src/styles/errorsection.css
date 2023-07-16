@@ -1,0 +1,43 @@
+/* This file has css for error section */
+
+/* error section */
+
+.error-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.error-section img {
+  width: 400px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+.back-to-home-btn {
+  background-color: var(--color2);
+  color: white;
+  border: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.back-to-home-btn:hover {
+  background-color: white;
+  color: var(--color2);
+  font-weight: 700;
+  border: 2px solid var(--color2);
+}
+.error-section p {
+  font-size: 1rem;
+}
+@media screen and (max-width: 375px) {
+  .error-section img {
+    width: 300px;
+  }
+  .back-to-home-btn {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}

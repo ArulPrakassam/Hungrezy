@@ -1,0 +1,38 @@
+{
+  "delivery": [
+    {
+      "name": "Rating: 4.0+",
+      "filterName": "ratings",
+      "filterValue": "4-5"
+    },
+    {
+      "name": "Pure Veg",
+      "filterName": "veg",
+      "filterValue": "true"
+    }
+  ],
+  "dine-out": [
+    {
+      "name": "Rating: 4.0+",
+      "filterName": "ratings",
+      "filterValue": "4-5"
+    },
+    {
+      "name": "Outdoor seating",
+      "filterName": "outdoor",
+      "filterValue": "true"
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Distance",
+      "filterName": "distance",
+      "filterValue": "sort"
+    },
+    {
+      "name": "Rating: 4.0+",
+      "filterName": "ratings",
+      "filterValue": "4-5"
+    }
+  ]
+}

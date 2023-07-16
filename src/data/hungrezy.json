@@ -1,0 +1,568 @@
+{
+  "delivery": {
+    "hotels": [
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689406897/Hungrezy/KBS%20Kofi%20Bar%20and%20Veg%20Restaurant.jpg",
+        "title": "KBS Kofi Bar & Veg Restaurant",
+        "cuisines": "South Indian, Beverages, Street Food, Chinese, Sichuan",
+        "reach": "30 min",
+        "ratings": "3.6",
+        "price": "150 for one",
+        "veg": true,
+        "address": "Gandhinagar, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689406970/Hungrezy/Oyalo%20Pizza.jpg",
+        "title": "Oyalo Pizza",
+        "cuisines": "Pizza",
+        "reach": "18 min",
+        "ratings": "3.7",
+        "price": "150 for one",
+        "veg": false,
+        "address": "Lawspet, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407098/Hungrezy/Banana%20Leaf%20-%20Grillz%20N%20BBQ.jpg",
+        "title": "Banana Leaf - Grillz N BBQ",
+        "cuisines": "South Indian, Beverages, Street Food, Chinese, Sichuan",
+        "reach": "34 min",
+        "ratings": "3.5",
+        "price": "150 for one",
+        "veg": false,
+        "address": "Heritage Town, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407108/Hungrezy/Ibaco.jpg",
+        "title": "Ibaco",
+        "cuisines": "Ice Cream",
+        "reach": "35 min",
+        "ratings": "4.0",
+        "price": "150 for one",
+        "veg": true,
+        "address": "Mudaliarpet, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407128/Hungrezy/Kwality%20Walls%20Frozen%20Dessert.jpg",
+        "title": "Kwality Walls Frozen Dessert",
+        "cuisines": "Ice Cream",
+        "reach": "14 min",
+        "ratings": "4.1",
+        "price": "150 for one",
+        "veg": true,
+        "address": "Gandhinagar, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407137/Hungrezy/The%20Pizza%20Hub.jpg",
+        "title": "The Pizza Hub",
+        "cuisines": "Italian, Pizza, Fast Food, Beverages",
+        "reach": "30 min",
+        "ratings": "3.8",
+        "price": "150 for one",
+        "veg": false,
+        "address": "Heritage Town, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407144/Hungrezy/Surguru.jpg",
+        "title": "Surguru",
+        "cuisines": "South Indian, North Indian, Chinese, Ice cream, Desserts, Beverages",
+        "reach": "22 min",
+        "ratings": "4.2",
+        "price": "150 for one",
+        "veg": true,
+        "address": "Gandhinagar, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407154/Hungrezy/A2B%20-%20Adyar%20Ananda%20Bhavan.jpg",
+        "title": "A2B - Adyar Ananda Bhavan",
+        "cuisines": "South Indian, Mithai, Fast Food, North Indian, Beverages, Chinese",
+        "reach": "26 min",
+        "ratings": "4.2",
+        "price": "150 for one",
+        "veg": true,
+        "address": "White Town, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407165/Hungrezy/Domino%27s%20Pizza.jpg",
+        "title": "Domino's Pizza",
+        "cuisines": "Pizza, Italian, Pasta, Fast Food, Desserts",
+        "reach": "25 min",
+        "ratings": "4.1",
+        "price": "200 for one",
+        "veg": false,
+        "address": "MG Road, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407173/Hungrezy/Pondy%20Macaroni.jpg",
+        "title": "Pondy Macaroni",
+        "cuisines": "Chinese, Fast Food",
+        "reach": "27 min",
+        "ratings": "4.0",
+        "price": "200 for one",
+        "veg": false,
+        "address": "MG Road, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407186/Hungrezy/Cool%20Cat%20Pure%20Veg%20-%20Reddiyarpalayam.jpg",
+        "title": "Cool Cat Pure Veg - Reddiyarpalayam",
+        "cuisines": "South Indian, Chinese, North Indian, Beverages",
+        "reach": "18 min",
+        "ratings": "4.0",
+        "price": "100 for one",
+        "veg": true,
+        "address": "Heritage Town, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407194/Hungrezy/Hot%20Chips.jpg",
+        "title": "Hot Chips",
+        "cuisines": "South Indian, North Indian, Street Food",
+        "reach": "23 min",
+        "ratings": "4.0",
+        "price": "150 for one",
+        "veg": true,
+        "address": "Heritage Town, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407200/Hungrezy/Hotel%20Archanas.jpg",
+        "title": "Hotel Archanas",
+        "cuisines": "South Indian",
+        "reach": "23 min",
+        "ratings": "4.0",
+        "price": "150 for one",
+        "veg": true,
+        "address": "Heritage Town, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407211/Hungrezy/Oceans%207.jpg",
+        "title": "Oceans 7",
+        "cuisines": "South Indian, Beverages, Street Food, Chinese, Street Food, Desserts",
+        "reach": "31 min",
+        "ratings": "4.2",
+        "price": "150 for one",
+        "veg": true,
+        "address": "White Town, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407218/Hungrezy/Atherai%20Restaurant.jpg",
+        "title": "Atherai Restaurant",
+        "cuisines": "South Indian, Beverages",
+        "reach": "27 min",
+        "ratings": "4.1",
+        "price": "150 for one",
+        "veg": true,
+        "address": "White Town, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407225/Hungrezy/Eden%20Garden.jpg",
+        "title": "Eden Garden",
+        "cuisines": "Fast Food, Shake, Ice cream, Desserts, Beverages",
+        "reach": "21 min",
+        "ratings": "3.6",
+        "price": "150 for one",
+        "veg": true,
+        "address": "MG Road, Puducherry"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407235/Hungrezy/Sandwich%20Square.jpg",
+        "title": "Sandwich Square",
+        "cuisines": "Sandwich, Fast Food, Beverages, Shake",
+        "reach": "27 min",
+        "ratings": 3.6,
+        "price": "200 for one",
+        "veg": false,
+        "address": "Heritage Town, Puducherry"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407241/Hungrezy/Hot%20King%20Restaurant.jpg",
+        "title": "Hot King Restaurant",
+        "cuisines": "North Indian, Biryani, Chinese, Mughlai",
+        "reach": "27 min",
+        "ratings": "4.1",
+        "price": "200 for one",
+        "veg": false,
+        "address": "Heritage Town, Puducherry"
+      }
+    ]
+  },
+  "Nightlife": {
+    "collections": [
+      {
+        "title": "17 Best Bars & Pubs",
+        "count": "17 Places",
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407779/Hungrezy/Best%20Bars%20and%20Pubs.jpg",
+        "id": 1
+      },
+      {
+        "title": "8 Lit Party Places",
+        "count": "8 Places",
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407785/Hungrezy/Lit%20Party%20Places.jpg",
+        "id": 2
+      }
+    ],
+    "hotels": [
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407964/Hungrezy/The%20Black%20Bar%20-%20Hotel%20Le%20Royal%20Park.jpg",
+        "title": "The Black Bar - Hotel Le Royal Park",
+        "cuisines": "Biryani, North Indian, Seafood, Beverages",
+        "address": "Hotel Le Royal Park, MG Road, Puducherry",
+        "reach": "3.5 km",
+        "ratings": "3.9",
+        "price": "1,800 for two"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407971/Hungrezy/Catamaran%20Brewing.jpg",
+        "title": "Catamaran Brewing",
+        "cuisines": "Continental, North Indian, Asian, Pasta, French, Seafood, South Indian, Beverages",
+        "address": "Heritage Town, Puducherry",
+        "reach": "4.7 km",
+        "ratings": "4.9",
+        "price": "1,200 for two"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407978/Hungrezy/Cosy%20Resto%20Pub.jpg",
+        "title": "Cosy Resto Pub",
+        "cuisines": "North Indian, Chinese, Continental, Salad, Kebab, Mughlai, Sichuan",
+        "address": "MG Road, Puducherry",
+        "reach": "4.7 km",
+        "ratings": "4.3",
+        "price": "900 for two"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407989/Hungrezy/Zodiac%20-%20Accord%20Puducherry.jpg",
+        "title": "Zodiac - Accord Puducherry",
+        "cuisines": "Finger Food",
+        "address": "Accord Puducherry, Gandhinagar, Puducherry",
+        "reach": "2.7 km",
+        "ratings": "3.9",
+        "price": "1,100 for two"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407996/Hungrezy/PY%20Cafe.jpg",
+        "title": "PY Cafe",
+        "cuisines": "Fast Food, Continental, Finger Food, Salad, Healthy Food, Sandwich, Pasta, Beverages",
+        "address": "MG Road, Puducherry",
+        "reach": "5 km",
+        "ratings": "4.4",
+        "price": "700 for two"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408002/Hungrezy/Nila%20Bar.jpg",
+        "title": "Nila Bar",
+        "cuisines": "Bar Food, Beverages",
+        "address": "Gandhinagar, Puducherry",
+        "reach": "2.4 km",
+        "ratings": "3.0",
+        "price": "1,000 for two"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408012/Hungrezy/1%20Rue%20Suffren.jpg",
+        "title": "1 Rue Suffren",
+        "cuisines": "Finger Food, Continental, Asian, North Indian, Biryani, Chinese, Desserts",
+        "address": "White Town, Puducherry",
+        "reach": "5.3 km",
+        "ratings": "4.3",
+        "price": "800 for two"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408019/Hungrezy/Veryy%20Pondy.jpg",
+        "title": "Veryy Pondy",
+        "cuisines": "Continental, Fast Food, Pasta, Tea, Beverages, Shake, North Indian",
+        "address": "MG Road, Puducherry",
+        "reach": "5.1 km",
+        "ratings": "4.9",
+        "price": "1,600 for two"
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408027/Hungrezy/Hopper%27s%20Bar%20and%20Kitchen.jpg",
+        "title": "Hopper's Bar & Kitchen",
+        "cuisines": "Bar Food, Pizza, Wraps, Chinese, Fast Food, Beverages, Sichuan",
+        "address": "Gandhinagar, Puducherry",
+        "reach": "2.6 km",
+        "ratings": "4.4",
+        "price": "1,200 for two"
+      }
+    ]
+  },
+  "Dining Out": {
+    "collections": [
+      {
+        "title": "9 Best Insta-worthy Places",
+        "count": "9 Places",
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408383/Hungrezy/Best%20Insta-worthy%20Places.jpg",
+        "id": 1
+      },
+      {
+        "title": "13 Great Cafes",
+        "count": "13 Places",
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408388/Hungrezy/Great%20Cafes.jpg",
+        "id": 2
+      },
+      {
+        "title": "10 Romantic Dining Places",
+        "count": "10 Places",
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408395/Hungrezy/Romantic%20Dining%20Places.jpg",
+        "id": 3
+      },
+      {
+        "title": "7 Sea View Dining Place",
+        "count": "7 Places",
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408403/Hungrezy/Sea%20View%20Dining%20Place.jpg",
+        "id": 4
+      },
+      {
+        "title": "7 Places for Irresistible French Treats",
+        "count": "7 Places",
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408412/Hungrezy/Places%20for%20Irresistible%20French%20Treats.jpg",
+        "id": 5
+      },
+      {
+        "title": "11 Serene Rooftop Places",
+        "count": "11 Places",
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408421/Hungrezy/Serene%20Rooftop%20Places.jpg",
+        "id": 6
+      },
+      {
+        "title": "8 Pan-Asian Restaurants",
+        "count": "8 Places",
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408430/Hungrezy/Pan-Asian%20Restaurants.jpg",
+        "id": 7
+      },
+      {
+        "title": "10 Places for South Indian Treats",
+        "count": "10 Places",
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408435/Hungrezy/Places%20for%20South%20Indian%20Treats.jpg",
+        "id": 8
+      }
+    ],
+    "hotels": [
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408931/Hungrezy/Coromandel%20Cafe.jpg",
+        "title": "Coromandel Cafe",
+        "cuisines": "Cafe, Continental, Italian, Tea, Beverages",
+        "address": "White Town, Puducherry",
+        "reach": "5.3 km",
+        "ratings": "4.5",
+        "price": "1,400 for two",
+        "outdoorSeating": true
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408947/Hungrezy/Le%20Dupleix.jpg",
+        "title": "Le Dupleix",
+        "cuisines": "French, Continental, North Indian, Desserts, Beverages",
+        "address": "White Town, Puducherry",
+        "reach": "5.3 km",
+        "ratings": "4.3",
+        "price": "1,500 for two",
+        "outdoorSeating": true
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408972/Hungrezy/Orange%20Restaurant.jpg",
+        "title": "Orange Restaurant",
+        "cuisines": "Chinese, North Indian, Biryani, Shake, Continental, Desserts, Seafood, Mughlai",
+        "address": "Lawspet, Puducherry",
+        "reach": "4.6 km",
+        "ratings": "4.3",
+        "price": "700 for two",
+        "outdoorSeating": true
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408978/Hungrezy/Bread%20and%20Chocolate.jpg",
+        "title": "Bread & Chocolate",
+        "cuisines": "Coffee, Fast Food, Sandwich, Continental, Tea, Beverages",
+        "address": "White Town, Puducherry",
+        "reach": "5.5 km",
+        "ratings": "3.7",
+        "price": "750 for two",
+        "outdoorSeating": false
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407971/Hungrezy/Catamaran%20Brewing.jpg",
+        "title": "Catamaran Brewing",
+        "cuisines": "Continental, North Indian, Asian, Pasta, French, Seafood, South Indian, Beverages",
+        "address": "Heritage Town, Puducherry",
+        "reach": "4.7 km",
+        "ratings": "4.9",
+        "price": "1,200 for two",
+        "outdoorSeating": false
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689409407/Hungrezy/Blueline%20-%20The%20Promenade.jpg",
+        "title": "Blueline - The Promenade",
+        "cuisines": "French, Continental, North Indian, Seafood, South Indian, Biryani, Desserts, Beverages",
+        "address": "The Promenade, White Town, Puducherry",
+        "reach": "5.5 km",
+        "ratings": "4.3",
+        "price": "1,500 for two",
+        "outdoorSeating": false
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689409415/Hungrezy/Le%20Cafe.jpg",
+        "title": "Le Cafe",
+        "cuisines": "Cafe, Fast Food, Beverages",
+        "address": "White Town, Puducherry",
+        "reach": "5.3 km",
+        "ratings": "2.8",
+        "price": "900 for two",
+        "outdoorSeating": true
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689409424/Hungrezy/Amity%20Sky%20Bistro%20and%20Nightlife.jpg",
+        "title": "Amity Sky Bistro & Nightlife",
+        "cuisines": "Bar Food, North Indian, Mughlai, Beverages",
+        "address": "Heritage Town, Puducherry",
+        "reach": "4.5 km",
+        "ratings": "3.9",
+        "price": "2,000 for two",
+        "outdoorSeating": true
+      },
+      {
+        "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689409432/Hungrezy/Flaming%20Dragons.jpg",
+        "title": "Flaming Dragons",
+        "cuisines": "Asian, Chinese, Thai, Japanese, Desserts, Beverages, Finger Food",
+        "address": "White Town, Puducherry",
+        "reach": "5.1 km",
+        "ratings": "4.5",
+        "price": "1,200 for two",
+        "outdoorSeating": false
+      }
+    ]
+  },
+  "collections": [
+    {
+      "title": "9 Best Insta-worthy Places",
+      "count": "9 Places",
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408383/Hungrezy/Best%20Insta-worthy%20Places.jpg",
+      "id": 1
+    },
+    {
+      "title": "13 Great Cafes",
+      "count": "13 Places",
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408388/Hungrezy/Great%20Cafes.jpg",
+      "id": 2
+    },
+    {
+      "title": "10 Romantic Dining Places",
+      "count": "10 Places",
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408395/Hungrezy/Romantic%20Dining%20Places.jpg",
+      "id": 3
+    },
+    {
+      "title": "7 Sea View Dining Place",
+      "count": "7 Places",
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408403/Hungrezy/Sea%20View%20Dining%20Place.jpg",
+      "id": 4
+    },
+    {
+      "title": "7 Places for Irresistible French Treats",
+      "count": "7 Places",
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408412/Hungrezy/Places%20for%20Irresistible%20French%20Treats.jpg",
+      "id": 5
+    },
+    {
+      "title": "11 Serene Rooftop Places",
+      "count": "11 Places",
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408421/Hungrezy/Serene%20Rooftop%20Places.jpg",
+      "id": 6
+    },
+
+    {
+      "title": "8 Lit Party Places",
+      "count": "8 Places",
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407785/Hungrezy/Lit%20Party%20Places.jpg",
+      "id": 7
+    },
+    {
+      "title": "8 Pan-Asian Restaurants",
+      "count": "8 Places",
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408430/Hungrezy/Pan-Asian%20Restaurants.jpg",
+      "id": 8
+    },
+    {
+      "title": "10 Places for South Indian Treats",
+      "count": "10 Places",
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408435/Hungrezy/Places%20for%20South%20Indian%20Treats.jpg",
+      "id": 9
+    },
+    {
+      "title": "17 Best Bars & Pubs",
+      "count": "17 Places",
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407779/Hungrezy/Best%20Bars%20and%20Pubs.jpg",
+      "id": 10
+    }
+  ],
+  "collectionPage": [
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689409820/Hungrezy/Bay%20of%20Buddha%20-%20%20The%20Promenade.jpg",
+      "title": "Bay of Buddha - The Promenade",
+      "cuisines": "Asian, Thai, Chinese, Korean",
+      "address": "White Town, Puducherry",
+      "ratings": "4.9",
+      "price": "1,200 for two"
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689409814/Hungrezy/Cafe%20Le%20Pondicherry.jpg",
+      "title": "Cafe Le Pondicherry",
+      "cuisines": "Cafe, Bakery, Fast Food",
+      "address": "Heritage Town, Puducherry",
+      "ratings": "4.0",
+      "price": "900 for two"
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689407996/Hungrezy/PY%20Cafe.jpg",
+      "title": "PY Cafe",
+      "cuisines": "Fast Food, Continental, Finger Food, Salad, Healthy Food, Sandwich, Pasta, Beverages",
+      "address": "MG Road, Puducherry",
+      "ratings": "4.4",
+      "price": "700 for two"
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408931/Hungrezy/Coromandel%20Cafe.jpg",
+      "title": "Coromandel Cafe",
+      "cuisines": "Cafe, Continental, Italian, Tea, Beverages",
+      "address": "White Town, Puducherry",
+      "ratings": "4.5",
+      "price": "1,400 for two",
+      "outdoorSeating": true
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689408019/Hungrezy/Veryy%20Pondy.jpg",
+      "title": "Veryy Pondy",
+      "cuisines": "Continental, Fast Food, Pasta, Tea, Beverages, Shake, North Indian",
+      "address": "MG Road, Puducherry",
+      "ratings": "4.9",
+      "price": "1,600 for two"
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689409647/Hungrezy/MIRA.jpg",
+      "title": "MIRA",
+      "cuisines": "Continental,European, North Indian, Chinese",
+      "address": "White Town, Puducherry",
+      "ratings": "4.3",
+      "price": "1,000 for two"
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689409640/Hungrezy/Hope%20Cafe.jpg",
+      "title": "Hope Cafe",
+      "cuisines": "Juices, Shake, Beverages, Fast Food",
+      "address": "White Town, Puducherry",
+      "ratings": "4.0",
+      "price": "1,000 for two"
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689409593/Hungrezy/Cafe%20Des%20Arts.jpg",
+      "title": "Le Petit Four",
+      "cuisines": "Bakery, Sandwich",
+      "address": "White Town, Puducherry",
+      "ratings": "4.1",
+      "price": "900 for two"
+    },
+    {
+      "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1689409593/Hungrezy/Cafe%20Des%20Arts.jpg",
+      "title": "Cafe Des Arts",
+      "cuisines": "Cafe, Salad, Continental, Desserts",
+      "address": "White Town, Puducherry",
+      "ratings": "3.4",
+      "price": "1,000 for two"
+    }
+  ]
+}

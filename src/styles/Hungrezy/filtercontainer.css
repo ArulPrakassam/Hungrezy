@@ -1,0 +1,88 @@
+/* This file has css for filter container */
+
+/* filter section */
+
+.filter-container {
+  margin: 10px auto;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  place-items: start;
+  overflow-x: scroll;
+  transition: all 0.5s linear;
+  z-index: 2;
+  scrollbar-width: none;
+}
+.filter-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.filter-container::-webkit-scrollbar {
+  display: none;
+}
+.filter-btn {
+  font-size: 1rem;
+  font-family: var(--font-family1);
+  padding: 8px 14px;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  background-color: transparent;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.filter-btn:hover {
+  background-color: var(--color2);
+  color: white;
+  border: none;
+}
+.button-selected {
+  background-color: var(--color2);
+  color: white;
+  border: none;
+}
+.filter-icon {
+  margin-right: 5px;
+  font-size: 1rem;
+}
+.filter-btn span {
+  font-size: 0.8rem;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: inline;
+}
+@media screen and (min-width: 769px) {
+  .filter-container {
+    position: sticky;
+    top: 0;
+    background-color: var(--body);
+    width: 75vw;
+  }
+}
+@media screen and (max-width: 833px) {
+  .filter-container {
+    position: sticky;
+    top: 0;
+    background-color: var(--body);
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .filter-btn {
+    font-size: 0.87rem;
+    padding: 5px 11px;
+  }
+  .filter-icon {
+    font-size: 0.8rem;
+  }
+  .filter-container {
+    margin-top: 5px;
+    padding: 15px 20px;
+    width: 100%;
+  }
+}

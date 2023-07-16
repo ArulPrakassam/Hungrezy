@@ -1,0 +1,207 @@
+/* This file has css for review section */
+
+/* reviews section*/
+
+.review-section h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.review-container {
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(204, 198, 198);
+}
+.reviewer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reviewer-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-img {
+  border-radius: 100%;
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+}
+.profile-img img {
+  border-radius: inherit;
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
+  cursor: pointer;
+}
+.reviewer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.reviewer-name {
+  font-size: 1rem;
+  font-family: var(--font-family1);
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+.reviews-given {
+  color: grey;
+  padding-top: 5px;
+  font-size: 1rem;
+  margin-top: 5px;
+  font-family: var(--font-family1);
+  font-weight: 200;
+}
+.follow-button {
+  border-radius: 5px;
+  border: 2px solid var(--color3);
+  color: var(--color3);
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.review-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+  color: grey;
+  font-size: 1rem;
+}
+.review {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  font-size: 0.78rem;
+  color: grey;
+}
+.review p {
+  margin-right: 15px;
+}
+.review-ratings {
+  color: white;
+  background: var(--color2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.review-rating-icon {
+  font-size: 0.6rem;
+  margin-top: 1px;
+  margin-left: 2px;
+}
+.review-details p {
+  margin-top: 10px;
+}
+
+.review-time {
+  color: grey;
+  font-size: 0.8rem;
+  font-family: var(--font-family1);
+  font-weight: 200;
+}
+.review-votes {
+  font-size: 1rem;
+  margin-top: 5px;
+  font-family: var(--font-family1);
+  font-weight: 200;
+}
+.review-upvote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.review-upvote p {
+  margin-right: 26px;
+  padding: 10px 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.96rem;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.review-upvote p span {
+  margin-right: 4px;
+}
+.review-upvote p:hover {
+  background-color: var(--box-shadow);
+}
+
+@media screen and (max-width: 961px) {
+  .review-section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .review-section h2 {
+    font-size: 1.2rem;
+  }
+  .follow-button {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 597px) {
+  .review-votes {
+    font-size: 0.8rem;
+  }
+  .reviews-given {
+    font-size: 0.9rem;
+  }
+
+  .review-details {
+    font-size: 0.9rem;
+  }
+  .review-upvote p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 501px) {
+  .reviewer-name {
+    font-size: 0.85rem;
+  }
+  .follow-button {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .review-votes {
+    font-size: 0.7rem;
+  }
+  .reviews-given {
+    font-size: 0.8rem;
+  }
+
+  .review-details {
+    font-size: 0.8rem;
+  }
+  .review-upvote p {
+    font-size: 0.75rem;
+  }
+
+  .review-rating-icon {
+    font-size: 0.5rem;
+  }
+  .review {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .review-section h2 {
+    font-size: 1rem;
+  }
+}

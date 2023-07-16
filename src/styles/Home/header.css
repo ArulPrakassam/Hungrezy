@@ -1,0 +1,239 @@
+/* This file has home header css and input container css */
+
+@import "./navbar.css";
+
+/* header */
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+    url("https://res.cloudinary.com/dhxjitf9n/image/upload/v1689353587/Hungrezy/header-bg.jpg")
+      center/cover fixed no-repeat;
+}
+
+.header-center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 50px;
+}
+.title {
+  font-size: 4.5rem;
+  padding: 15px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: var(--font-family2);
+}
+.description {
+  font-size: 2.6rem;
+  padding: 15px;
+  font-family: var(--font-family1);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* input section */
+.input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  padding-bottom: 100px;
+  margin-bottom: 20px;
+}
+.input-container-one,
+.input-container-two {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.location-icon {
+  font-size: 1.3rem;
+  color: var(--color3);
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+}
+
+.location-search,
+.hotel-search {
+  padding: 5px;
+  border: none;
+  height: 49px;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+}
+.location-search {
+  width: 220px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+.location-search::placeholder {
+  font-weight: 700;
+}
+.hotel-search {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 450px;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+.dropdown-icon {
+  background-color: white;
+  color: black;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 14px;
+  cursor: pointer;
+}
+.line {
+  border-right: 2px solid var(--secondary);
+  height: 6px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 7px;
+}
+.search-icon {
+  color: grey;
+  font-size: 1rem;
+  background-color: white;
+  padding: 15px 6px 14px 5px;
+}
+.hotel-search:focus,
+.location-search:focus {
+  outline: none;
+}
+.dropdown-content {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  position: absolute;
+  left: 1;
+  top: 50%;
+  transition: all 0.5s linear;
+}
+.gps-icon {
+  color: var(--color2);
+  font-size: 1rem;
+}
+.gps-icon span {
+  padding-left: 10px;
+  font-size: 1.2rem;
+}
+.dropdown-content p {
+  color: var(--secondary);
+  font-size: 0.8rem;
+  padding-left: 27px;
+  padding-top: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+    padding: 15px;
+  }
+  .description {
+    font-size: 1.5rem;
+  }
+  .input-container {
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .hotel-search {
+    width: 350px;
+  }
+  .location-search {
+    margin-bottom: 10px;
+    width: 320px;
+  }
+  .line {
+    display: none;
+  }
+  .location-icon {
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+  .search-icon {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+  }
+  .dropdown-icon {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .dropdown-content {
+    width: 385px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hotel-search {
+    width: 230px;
+  }
+  .location-search {
+    width: 200px;
+  }
+  .dropdown-content {
+    width: 265px;
+  }
+}
+
+@media screen and (max-width: 358px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .hotel-search {
+    width: 200px;
+    font-size: 0.7rem;
+  }
+  .location-search {
+    width: 190px;
+    font-size: 0.7rem;
+  }
+  .location-search,
+  .hotel-search {
+    height: 30px;
+  }
+  .location-icon {
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-left: 3px;
+    font-size: 1rem;
+  }
+  .search-icon {
+    padding-left: 5px;
+    font-size: 1rem;
+    padding-top: 4px;
+    padding-bottom: 6px;
+  }
+  .dropdown-icon {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 7px 3px;
+    font-size: 0.8rem;
+  }
+  .dropdown-content {
+    width: 235px;
+  }
+  .gps-icon {
+    font-size: 0.8rem;
+  }
+  .gps-icon span {
+    padding-left: 5px;
+    font-size: 1rem;
+  }
+  .dropdown-content p {
+    font-size: 0.7rem;
+    padding-left: 18px;
+  }
+}

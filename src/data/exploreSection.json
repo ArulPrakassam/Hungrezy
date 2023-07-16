@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Popular cuisines near me",
+    "info": [
+      "Bakery food near me",
+      "Beverages food near me",
+      "Biryani food near me",
+      "Burger food near me",
+      "Chettinad food near me",
+      "Chinese food near me",
+      "Continental food near me"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Popular restaurant types near me",
+    "info": [
+      "Bakeries near me",
+      "Bars near me",
+      "Beverage Shops near me",
+      "Cafés near me",
+      "Casual Dining near me",
+      "Clubs near me",
+      "Dessert Parlors near me"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Cities We Deliver To",
+    "info": [
+      "Pondicherry",
+      "chennai",
+      "Bengaluru",
+      "Madurai",
+      "Coimbatore",
+      "Mumbai",
+      "Trivandrum"
+    ]
+  }
+]

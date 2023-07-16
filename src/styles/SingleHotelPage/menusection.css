@@ -1,0 +1,299 @@
+/* This has css for menu section*/
+
+@import "./menusearch.css";
+@import "./asidefiltercontainer.css";
+
+/* menu section */
+
+.menu-top-container {
+  margin-top: 30px;
+}
+.order-online-section {
+  margin-left: 20px;
+  width: 80%;
+}
+.order-online-section h2 {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.single-food-item {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.food-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.food-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.food-name {
+  font-size: 1rem;
+  font-family: var(--font-family1);
+  margin-bottom: 10px;
+}
+.food-img {
+  position: relative;
+  width: 130px;
+  height: 100px;
+  border-radius: 10px;
+}
+.food-item-img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border-radius: inherit;
+}
+.food-icon {
+  width: 12px;
+  padding-bottom: 4px;
+}
+.star-rating-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.star-rating-icon {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  color: rgb(247, 171, 31);
+  margin-right: 2px;
+}
+.food-price {
+  color: grey;
+  font-size: 0.8rem;
+  font-family: var(--font-family1);
+}
+
+/* veg and non veg filter buttons */
+.veg-non-veg-filter {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.veg-non-veg-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.food-type {
+  padding: 5px;
+  background-color: white;
+  margin-right: 20px;
+  font-size: 1rem;
+  font-family: var(--font-family1);
+  border-radius: 6px;
+  border: 1px solid rgb(204, 198, 198);
+  cursor: pointer;
+}
+.btn-selected {
+  border: 1px solid var(--color2);
+  background-color: rgb(255, 220, 225);
+}
+.food-type span {
+  font-size: 0.8rem;
+}
+.food-icon-filter {
+  width: 12px;
+  margin-right: 5px;
+}
+
+/* make search bar and veg, non-veg filter sticky in mobile version */
+.mobile-top-bar {
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+  background-color: var(--body);
+  z-index: 3;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: all 0.5s linear;
+}
+
+/* order buttons */
+/* These are common templates */
+.order-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 7px;
+}
+.remove-one,
+.add-one,
+.initial-add {
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 0.8rem;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+
+.initial-add {
+  padding: 6px 25px;
+  position: relative;
+}
+.initial-add-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.7rem;
+  margin-top: 2px;
+}
+.current-order-count {
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  padding: 6px 10px;
+}
+.food-cateogry-title {
+  font-size: 1.5rem;
+  font-family: var(--font-family1);
+  margin: 20px 0;
+  font-weight: 500;
+}
+.food-category-container {
+  border-bottom: 1px solid rgb(204, 198, 198);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  max-width: 1000px;
+}
+
+/* this is desktop order btns */
+@media screen and (min-width: 579px) {
+  .single-food-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .food-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    margin-right: 4px;
+    margin-top: 4px;
+  }
+  .food-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media screen and (min-width: 769px) {
+  .menu-top-container {
+    display: flex;
+  }
+}
+@media screen and (max-width: 961px) {
+  .order-online-section h2 {
+    font-size: 1.5rem;
+  }
+  .food-cateogry-title {
+    font-size: 1.2rem;
+  }
+
+  .food-name {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+  }
+  .star-rating-icon {
+    font-size: 0.75rem;
+    margin-bottom: 5px;
+  }
+  .food-price {
+    font-size: 0.8rem;
+  }
+
+  /* order buttons */
+
+  .initial-add {
+    padding: 6px 20px;
+  }
+
+  .current-order-count {
+    padding: 6px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .order-online-section {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .order-online-section h2 {
+    font-size: 1.22rem;
+  }
+}
+
+/* this is used for mobile version */
+@media screen and (max-width: 578px) {
+  .food-description {
+    margin-left: 0px;
+  }
+  /* order buttons */
+  .order-count {
+    position: absolute;
+    bottom: -13%;
+    left: 20px;
+    right: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .food-img {
+    width: 120px;
+    height: 100px;
+  }
+
+  .food-icon,
+  .food-icon-filter {
+    width: 10px;
+  }
+  .food-name {
+    font-size: 0.85rem;
+  }
+  .star-rating-icon {
+    font-size: 0.7rem;
+  }
+  .food-price {
+    font-size: 0.75rem;
+  }
+
+  /* veg and non veg filter buttons */
+  .food-type {
+    font-size: 0.85rem;
+  }
+  .food-type span {
+    font-size: 0.6rem;
+  }
+
+  /* order buttons */
+
+  .remove-one,
+  .add-one,
+  .initial-add {
+    font-size: 0.75rem;
+  }
+
+  .current-order-count {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .order-online-section h2 {
+    font-size: 1rem;
+  }
+}
