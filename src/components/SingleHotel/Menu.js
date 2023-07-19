@@ -90,7 +90,7 @@ const Menu = ({ hotelName, veg }) => {
       {windowSize <= 768 ? (
         <div className="mobile-top-bar">
           <SearchFoodBar />
-          <VegNonVegFilter />
+          {!veg && <VegNonVegFilter />}
         </div>
       ) : (
         ""
